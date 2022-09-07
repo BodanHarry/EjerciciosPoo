@@ -29,4 +29,11 @@ public class Operacion {
     public void setPersona(Persona persona) {
         this.persona = persona;
     }
+
+    @Override
+    public String toString() {
+        return "Operacion{" + "persona=" + persona + '}';
+    }
+    
+    
 }//end Operacion
